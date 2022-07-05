@@ -1,6 +1,6 @@
 # dotnet-trx2sonar
 
-[![Build](https://github.com/gmarokov/dotnet-trx2sonar/actions/workflows/dotnet-core.yml/badge.svg)](https://github.com/gmarokov/dotnet-trx2sonar/actions/workflows/dotnet-core.yml)
+[![Build](https://github.com/AlbertoMonteiro/dotnet-trx2sonar/actions/workflows/dotnet-core.yml/badge.svg)](https://github.com/AlbertoMonteiro/dotnet-trx2sonar/actions/workflows/dotnet-core.yml)
 [![.NET Core](https://img.shields.io/badge/.NET%20Core-%3E%3D%202.1-512bd4)](https://dotnet.microsoft.com/download)
 [![NuGet](https://img.shields.io/nuget/v/dotnet-trx2sonar.svg)](https://www.nuget.org/packages/dotnet-trx2sonar/)
 
@@ -8,7 +8,7 @@ Dotnet tool to convert Visual Studio TRX files to SonarCloud Generic Test Data -
 More info about Generic Test Data [here](https://docs.sonarqube.org/latest/analysis/generic-test/)
 
 ## Installation 
-Download and install the .NET Core 2.1, 3.1 or 5 SDK. Once installed, run the following command:
+Download and install the .NET Core 2.1, 3.1, 5 or 6 SDK. Once installed, run the following command:
 
 ```dotnet tool install --global dotnet-trx2sonar```
 

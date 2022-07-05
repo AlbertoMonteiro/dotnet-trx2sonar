@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net5.0;netcoreapp3.1;netcoreapp2.2;netcoreapp2.1</TargetFrameworks>
+    <TargetFrameworks>net6.0;net5.0;netcoreapp3.1;netcoreapp2.2;netcoreapp2.1</TargetFrameworks>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-trx2sonar</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
@@ -11,12 +11,12 @@
     <Description>
       Dotnet tool to convert Visual Studio TRX files to SonarCloud Generic Test Data - Generic Execution.
     </Description>
-    <PackageId>dotnet-trx2sonar</PackageId>
+    <PackageId>dotnet-trx2sonar-updated</PackageId>
     <Authors>Georgi Marokov</Authors>
     <Copyright>2021</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/gmarokov/dotnet-trx2sonar</RepositoryUrl>
-    <ProjectUrl>https://github.com/gmarokov/dotnet-trx2sonar</ProjectUrl>
+    <RepositoryUrl>https://github.dev/AlbertoMonteiro/dotnet-trx2sonar</RepositoryUrl>
+    <ProjectUrl>https://github.dev/AlbertoMonteiro/dotnet-trx2sonar</ProjectUrl>
     <Tags>dotnet-tool, trx, sonarcloud</Tags>
   </PropertyGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">
@@ -31,6 +31,9 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
