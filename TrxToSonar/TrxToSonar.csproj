@@ -18,6 +18,7 @@
     <RepositoryUrl>https://github.dev/AlbertoMonteiro/dotnet-trx2sonar</RepositoryUrl>
     <ProjectUrl>https://github.dev/AlbertoMonteiro/dotnet-trx2sonar</ProjectUrl>
     <Tags>dotnet-tool, trx, sonarcloud</Tags>
+    <Version>1.0.6</Version>
   </PropertyGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.1" />

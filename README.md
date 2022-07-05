@@ -2,7 +2,7 @@
 
 [![Build](https://github.com/AlbertoMonteiro/dotnet-trx2sonar/actions/workflows/dotnet-core.yml/badge.svg)](https://github.com/AlbertoMonteiro/dotnet-trx2sonar/actions/workflows/dotnet-core.yml)
 [![.NET Core](https://img.shields.io/badge/.NET%20Core-%3E%3D%202.1-512bd4)](https://dotnet.microsoft.com/download)
-[![NuGet](https://img.shields.io/nuget/v/dotnet-trx2sonar.svg)](https://www.nuget.org/packages/dotnet-trx2sonar/)
+[![NuGet](https://img.shields.io/nuget/v/dotnet-trx2sonar-updated.svg)](https://www.nuget.org/packages/dotnet-trx2sonar-updated/)
 
 Dotnet tool to convert Visual Studio TRX files to SonarCloud Generic Test Data - Generic Execution. 
 More info about Generic Test Data [here](https://docs.sonarqube.org/latest/analysis/generic-test/)
