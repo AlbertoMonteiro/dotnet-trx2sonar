@@ -10,11 +10,11 @@ More info about Generic Test Data [here](https://docs.sonarqube.org/latest/analy
 ## Installation 
 Download and install the .NET Core 2.1, 3.1, 5 or 6 SDK. Once installed, run the following command:
 
-```dotnet tool install --global dotnet-trx2sonar```
+```dotnet tool install --global dotnet-trx2sonar-updated```
 
 If you already have a previous version of dotnet-trx2sonar installed, you can upgrade to the latest version using the following command:
 
-```dotnet tool update --global dotnet-trx2sonar```
+```dotnet tool update --global dotnet-trx2sonar-updated```
 
 ## Usage
 Once the tool is installed, provide solution directory to scan for `.trx` files and output file.
