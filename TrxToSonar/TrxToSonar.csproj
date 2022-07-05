@@ -15,8 +15,8 @@
     <Authors>Georgi Marokov</Authors>
     <Copyright>2021</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.dev/AlbertoMonteiro/dotnet-trx2sonar</RepositoryUrl>
-    <ProjectUrl>https://github.dev/AlbertoMonteiro/dotnet-trx2sonar</ProjectUrl>
+    <RepositoryUrl>https://github.com/AlbertoMonteiro/dotnet-trx2sonar</RepositoryUrl>
+    <ProjectUrl>https://github.com/AlbertoMonteiro/dotnet-trx2sonar</ProjectUrl>
     <Tags>dotnet-tool, trx, sonarcloud</Tags>
   </PropertyGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.1' ">
