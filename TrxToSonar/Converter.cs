@@ -33,6 +33,11 @@ namespace TrxToSonar
 
             IEnumerable<string> trxFiles = Directory.EnumerateFiles(solutionDirectory, "*.trx", SearchOption.AllDirectories);
 
+            if (!trxFiles.Any())
+            {
+                return null;
+            }
+
             var sonarDocuments = new List<SonarDocument>();
             foreach (string trxFile in trxFiles)
             {

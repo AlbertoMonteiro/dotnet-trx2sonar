@@ -34,7 +34,10 @@ namespace TrxToSonar
                     {
                         var converter = serviceProvider.GetService<IConverter>();
                         SonarDocument sonarDocument = converter.Parse(solutionDirectoryOption.Value(), absolutePathOption.HasValue());
-                        converter.Save(sonarDocument, outputOption.Value());
+                        if (sonarDocument != null)
+                        {
+                            converter.Save(sonarDocument, outputOption.Value());
+                        }
                     }
                     else
                     {
