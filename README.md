@@ -8,7 +8,7 @@ Dotnet tool to convert Visual Studio TRX files to SonarCloud Generic Test Data -
 More info about Generic Test Data [here](https://docs.sonarqube.org/latest/analysis/generic-test/)
 
 ## Installation 
-Download and install the .NET Core 2.1, 3.1, 5 or 6 SDK. Once installed, run the following command:
+Download and install the .NET Core 2.1, 3.1, 5, 6 or 7 SDK. Once installed, run the following command:
 
 ```dotnet tool install --global dotnet-trx2sonar-updated```
 
